@@ -1,11 +1,4 @@
-const {
-  By,
-  Key,
-  Builder,
-  WebElementCondition,
-  until,
-} = require("selenium-webdriver");
-const assert = require("assert");
+const { By, Builder, until } = require("selenium-webdriver");
 (async function test_function() {
   let driver = await new Builder().forBrowser("chrome").build();
 
